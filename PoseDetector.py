@@ -9,6 +9,17 @@ cap = cv2.VideoCapture(0)
 # Define the size of window
 cap.set(3,1280)
 cap.set(4,720)
+# For video
+# cap = cv2.VideoCapture("Your video path with it's format")
+# For image
+# cap = cv2.imread("Your image path with it's format")
+'''
+If you want to user image you must change the code and note using while loop
+But for webcam and video inout this code will work fine
+
+Pay attention to your video dimension(height frame and width frame) to see a nice window al last
+
+'''
 
 # User the class as the detector(create an instance of class)
 detector = pm.Pose_Detector()
