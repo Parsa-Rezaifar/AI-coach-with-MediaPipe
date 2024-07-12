@@ -4,7 +4,7 @@ import numpy as np
 import PoseModule as pm
 
 # Reading from webcam >> but you can use other sources like as below :
-# img = cv2.imread("Your image/video path") >> define this one in the loop to prevent over-detection points
+# img = cv2.imread("Your image path") >> define this one in the loop to prevent over-detection points
 cap = cv2.VideoCapture(0)
 # Define the size of window
 cap.set(3,1280)
