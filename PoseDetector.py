@@ -3,7 +3,7 @@ import time , cv2
 import numpy as np
 import PoseModule as pm
 
-# Reading from webcam >> but you can use other sources line as below :
+# Reading from webcam >> but you can use other sources like as below :
 # img = cv2.imread("Your image/video path") >> define this one in the loop to prevent over-detection points
 cap = cv2.VideoCapture(0)
 # Define the size of window
