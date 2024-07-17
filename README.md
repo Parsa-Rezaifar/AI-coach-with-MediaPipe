@@ -1,5 +1,5 @@
 # AI-coach-with-MediaPipe
-This is a Ai coach which can track your motion and count for you
+This is an Ai coach which can track your motion and count for you
 
 In this project i used libraries like MediaPipe , Numpy , math , Opencv and used these tools to track motion of an specific part of body
 
